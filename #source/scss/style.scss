@@ -1,3 +1,4 @@
+// Шрифты --
 @font-face {
     font-family: 'Myriad Pro';
     src: local('Myriad Pro Italic'), local('Myriad-Pro-Italic'),
@@ -20,8 +21,9 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #141414;
 }
-
+// Header --
 .header_img{
     background-image: url(/img/header/layer1.jpg);
 }
@@ -36,7 +38,7 @@ a:hover{
 }
 
 .header {
-    height: 1086px;
+    height: 1075px;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -109,3 +111,93 @@ a.nav_bar:hover {
     line-height: 1.2;
     font-weight: 400;
 }
+
+// Блок About
+
+.about {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+.about__flex{
+    display: flex;
+    padding-top: 36px;
+    padding-bottom: 75px;
+}
+.about__maintitle {
+    margin-left: 137px;
+    padding-right: 186px;
+}
+
+.about__title {
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #717171;
+}
+
+.about_letter{
+    font-family: 'Myriad Pro';
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #717171;
+}
+
+.about__subtitle {
+    font-family: 'Myriad Pro';
+    font-size: 80px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #000000;
+}
+.about_txt{
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+}
+.about__txt {
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+}
+.about__block {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 111px;
+}
+.about__block__element {
+    margin-right: 90px;
+    text-align: center;
+}
+
+.about__block__element__img {
+    padding-bottom: 41px;
+}
+.about__block__element__title {
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 19px;
+}
+.about__block__element__txt {
+    font-family: 'Myriad Pro';
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+
