@@ -210,3 +210,108 @@ a.nav_bar:hover {
   color: #000000;
   text-align: center;
 }
+
+.featuredProjects {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.featuredProjects__title {
+  font-family: "Myriad Pro";
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000000;
+  padding-bottom: 23px;
+  margin-left: 81px;
+}
+
+.fp__letter {
+  font-family: "Myriad Pro";
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000000;
+}
+
+.featuredProjects__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 26px;
+  margin-left: 81px;
+}
+
+.featuredProjects__solo {
+  font-family: "Myriad Pro";
+  font-size: 9px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #101010;
+  margin-right: 35px;
+}
+
+.featuredProjects__navbar__elem {
+  text-decoration: none;
+  font-family: "Myriad Pro";
+  font-size: 9px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #101010;
+  margin-right: 15px;
+}
+
+.featuredProjects__navbar__elem:hover {
+  color: #ffc600;
+}
+
+.featuredProjects__photos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (5 vw)[2];
+  grid-template-rows: repeat(2, 5 vw);
+}
+
+.featuredProjects__photos > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.featuredProjects__photos > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.featuredProjects__photos > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.featuredProjects__photos > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.featuredProjects__photos > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.featuredProjects__photos > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.featuredProjects__photos > *:nth-child(7) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.featuredProjects__photos > *:nth-child(8) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+}
