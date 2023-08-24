@@ -589,3 +589,64 @@ a.blogs__nav:hover{
 .icons{
     margin-left: 570px;
 }
+
+// LASTBLOCK
+
+.lastblock {
+    background-image: url(/img/lastbc.png);
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 654px;
+    display: flex;
+}
+.lastblock__title {
+    font-family: 'Myriad Pro';
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0,05em;
+    color: #ffffff;
+    margin-left: 26px;
+    padding-top: 35px;
+}
+.lastblock__navbar {
+    // padding-top: 10px;
+}
+.nav {
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.nav:hover{
+    color: #ffc600;
+    transition: 0.3s;
+}
+.line2 {
+    margin-left: 26px;
+}
+.logos {
+    margin-left: 26px;
+    padding-top: 14px;
+}
+.logo {
+    margin-right: 5px;
+}
+.maintitle {
+    margin-left: 180px;
+    padding-top: 345px;
+}
+.maintitle__title {
+    font-family: 'Myriad Pro';
+    font-size: 110.8px;
+    line-height: 88px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+}
+.orange110{
+    color: #ffc600;
+}
