@@ -162,7 +162,7 @@ a.nav_bar:hover {
 }
 .about__txt {
     font-family: 'Myriad Pro';
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
     color: #000000;
@@ -254,4 +254,60 @@ a.nav_bar:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 5 vw);
+    padding-bottom: 66px;
+}
+
+
+// SP
+.strategicprocess {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+.strategicprocess__title {
+    font-family: 'Myriad Pro';
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 26px;
+    margin-left: 80px;
+}
+.strategicprocess__txt {
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 79px;
+    margin-right: 63px;
+    margin-bottom: 43px;
+}
+.strategicprocess__gallery {
+    margin-right: 170px;
+    margin-left: 168px;
+
+}
+.strategicprocess__block {
+    display: flex;
+}
+.strategicprocess__block__ttxt{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.strategicprocess__block__title {
+    font-family: 'Myriad Pro';
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+.strategicprocess__block__txt {
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
 }
