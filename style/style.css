@@ -348,6 +348,7 @@ a.nav_bar:hover {
 .strategicprocess__gallery {
   margin-right: 170px;
   margin-left: 168px;
+  padding-bottom: 100px;
 }
 
 .strategicprocess__block {
@@ -376,4 +377,52 @@ a.nav_bar:hover {
   line-height: 1.2;
   font-weight: 400;
   color: #000000;
+}
+
+.servicrsprovided {
+  background-image: url(/img/SPbc.jpg);
+  width: 1200px;
+  height: 478px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.servicrsprovided__tite {
+  font-family: "Myriad Pro";
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 50px;
+  padding-top: 40px;
+}
+
+.servicrsprovided__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 437px;
+  padding-top: 20px;
+}
+
+.servicrsprovided__block__elem {
+  padding-bottom: 75px;
+  padding-right: 100px;
+}
+
+.servicrsprovided__block__title {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 26px;
+}
+
+.servicrsprovided__block__txt {
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
 }
