@@ -478,3 +478,84 @@ a.nav_bar:hover {
   font-weight: 600;
   color: #ffffff;
 }
+
+.blogs {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  padding-bottom: 115px;
+}
+
+.blogs__title {
+  font-family: "Myriad Pro";
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 58px;
+  padding-bottom: 70px;
+  padding-top: 60px;
+}
+
+.flex__elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blogs__navbar {
+  padding-right: 110px;
+}
+
+a.blogs__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 15px;
+  margin-left: 130px;
+}
+
+a.blogs__nav:hover {
+  color: #ffc600;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.blogs__posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blogs__block__data {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffc600;
+  padding-bottom: 20px;
+}
+
+.blogs__block__title {
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.blogs__block__subtitle {
+  font-family: "Myriad Pro";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000000;
+}
